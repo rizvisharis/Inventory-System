@@ -11,9 +11,10 @@
                     {!! Form::open(['action' => 'ListingsController@store','method'=>'POST']) !!}
                     {{Form::bsText('product_name', '', ['placeholder'=> 'Product Name'])}}
                     {{Form::bsText('product_price', '', ['placeholder'=> 'Product Price'])}}
-                    {{Form::bsText('person_name', '', ['placeholder'=> 'Person Name'])}}
                     {{Form::label('payment_method', 'Payment Method')}}
+                    <div class="form-control">
                     {{Form::select('payment_method', ['cash' => 'CASH', 'cheque' => 'CHEQUE'])}}
+                    </div>
                     {{Form::bsText('payment_amount', '', ['placeholder'=> 'Payment amount'])}}
                     {{Form::label('date', 'Date')}}
                     {{Form::date('date', \Carbon\Carbon::now())}}

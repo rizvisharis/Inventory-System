@@ -1,40 +1,20 @@
+
 # Inventory-System
-## Run Locally
 
-Clone the project
+## Deployment
 
-```bash
-  git clone https://github.com/rizvisharis/Inventory-System.git
-```
-
-Go to the project directory
+deployed this project on heroku but not yet integrated Database and try it
 
 ```bash
-  cd Inventory-System
-```
-
-Install dependencies
-
-```bash
-  composer install
-```
-
-Start the server
-
-```bash
-  php artisan serve
+  http://inventory-system-laravel.herokuapp.com
 ```
 
   
 ## Features
 
-- Easily manage purchased and Selling Items
-
-  
-## Tech Stack
-
-**client:** Bootstrap 4, Laravel Collective Form, Laravel Blade engine, Html
-
-**server:** PHP
+- Login
+- Registration User
+- manage sell and buy products
+- invoice bill generate 
 
   
